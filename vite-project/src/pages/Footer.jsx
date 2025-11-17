@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#FFFCEF] text-gray-300 py-10 px-6">
+    <footer className="bg-indigo-100 text-gray-300 py-10 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
 
         {/* Brand / About */}
@@ -34,10 +34,10 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Your email"
-              className="w-full px-4 py-2 rounded-l-md bg-white text-white border border-black focus:outline-none"
+              className="w-full px-4 py-2 rounded-l-md bg-white text-black border border-black focus:outline-none"
             />
-            <button className="bg-primary hover:bg-orange-500 cursor-pointer text-white px-4 py-2  m-3 rounded-r-md ">
-              Subscribe
+            <button className="bg-red-400 hover:bg-orange-500 cursor-pointer text-white px-4 py-2  m-3 rounded-r-md ">
+              Sent
             </button>
           </div>
         </div>

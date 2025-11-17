@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import HERO_IMG from "../assets/hero.png";
+import HERO_IMG from "../assets/hero1.png";
 import { ADD_FEATURES } from "../utils/data";
 import Modal from '../components/Modal';
 import Login from './Auth/Login';
@@ -75,7 +75,7 @@ const LandingPage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className='flex justify-center items-center'
             >
-              <img src={HERO_IMG} alt="Hero" className='w-full max-w-md sm:max-w-lg lg:max-w-xl rounded-2xl shadow-xl' />
+              <img src={HERO_IMG} alt="Hero" className='w-100 h-100 max-w-md sm:max-w-lg lg:max-w-xl rounded-4xl shadow-xl' />
             </motion.div>
           </div>
         </div>

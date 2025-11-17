@@ -8,7 +8,7 @@ const DeshboradLayout = ({children}) => {
     const {user}= useContext(UserContext)
 
   return (
-       <div>
+       <div className='bg-indigo-100'>
         <Navbar/>
         
         {user && <div>{children}</div>}
