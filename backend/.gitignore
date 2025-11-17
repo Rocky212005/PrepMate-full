@@ -1,0 +1,67 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# React specific
+*.eslintcache
+.eslintcache
+*.cache
+.npm
+.npmrc
+
+# Testing
+jest-test-results.json
+cypress/videos/
+cypress/screenshots/
+
+# Misc
+*.tgz
+*.zip
+*.tar.gz
+
+# Optional: keep local db dump files out
+dump/
+mongodb-dump/
